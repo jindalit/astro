@@ -1,0 +1,17 @@
+<div class="service-list">
+  <div class="row">
+    <div class="col-12">
+      <div class="row service-item" *ngFor="let item of items">
+        <div class="col-2 service-img" >
+          <img [src]="item.img"/>
+        </div>
+        <div class="col-8">
+          {{item.name}}
+        </div>
+        <div class="col-2">
+          <a href="tel:8585948505"><img src="../../assets/images/btn-consult.png"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
